@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 ######## Application gems
 
 gem 'devise'
+gem 'devise_invitable'
 
 ######## /Application gems
 
