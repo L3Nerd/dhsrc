@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  joined_at: 2016-01-19
+  dsqv_nr: MyString
+  user_id: 
+  license_id: 
+  age_class_id: 
+
+two:
+  joined_at: 2016-01-19
+  dsqv_nr: MyString
+  user_id: 
+  license_id: 
+  age_class_id: 
