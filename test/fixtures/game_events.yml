@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_time: 2016-01-19 18:30:02
+  end_time: 2016-01-19 18:30:02
+  team_id: 
+
+two:
+  start_time: 2016-01-19 18:30:02
+  end_time: 2016-01-19 18:30:02
+  team_id: 
