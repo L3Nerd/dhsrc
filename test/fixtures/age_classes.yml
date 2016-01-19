@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  from: 1
-  to: 1
-  name: MyString
+u17:
+  from: 6
+  to: 16
+  name: U16
 
-two:
-  from: 1
-  to: 1
-  name: MyString
+ü50:
+  from: 51
+  to: 55
+  name: Ü50

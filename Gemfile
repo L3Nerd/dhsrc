@@ -7,6 +7,8 @@ gem 'bootstrap-generators', '~> 3.3.4'
 gem 'devise'
 gem 'devise_invitable'
 gem 'ice_cube'
+gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'rails-4-x'
+gem 'devise-i18n'
 
 ######## /Application gems
 

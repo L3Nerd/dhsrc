@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  dsqv_name: MyString
-  license_id: 
+LandesligaA:
+  name: Landesliga A
+  dsqv_name: ll-a
+  license: Grundlizenz
 
-two:
-  name: MyString
-  dsqv_name: MyString
-  license_id: 
+Oberliga:
+  name: Oberliga
+  dsqv_name: ol
+  license: CLizenz
