@@ -9,6 +9,8 @@ class CreatePlayers < ActiveRecord::Migration
       t.references :age_class, index: true, foreign_key: true
 
       t.timestamps null: false
+
+      t.index :license_expires
     end
   end
 end

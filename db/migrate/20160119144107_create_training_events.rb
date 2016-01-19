@@ -6,6 +6,8 @@ class CreateTrainingEvents < ActiveRecord::Migration
       t.integer :players_count, default: 0, null: false
 
       t.timestamps null: false
+
+      t.index :day
     end
   end
 end

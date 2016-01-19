@@ -7,7 +7,7 @@ class CreateVenues < ActiveRecord::Migration
       t.string :city
       t.string :maps_link
 
-      #t.timestamps null: false
+      t.timestamps null: false
     end
   end
 end

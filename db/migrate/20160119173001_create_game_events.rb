@@ -8,6 +8,8 @@ class CreateGameEvents < ActiveRecord::Migration
       t.references :venue, foreign_key: true
 
       t.timestamps null: false
+
+      t.index :start_time
     end
   end
 end
