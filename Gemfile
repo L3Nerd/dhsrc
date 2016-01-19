@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 ######## Application gems
 
+gem 'slim-rails'
+gem 'bootstrap-generators', '~> 3.3.4'
 gem 'devise'
 gem 'devise_invitable'
 gem 'ice_cube'
