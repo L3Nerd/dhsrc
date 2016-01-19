@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  weekday: 1
+  start_time: 2016-01-19 14:58:35
+  end_time: 2016-01-19 14:58:35
+
+two:
+  name: MyString
+  weekday: 1
+  start_time: 2016-01-19 14:58:35
+  end_time: 2016-01-19 14:58:35
