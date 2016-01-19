@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem 'devise'
 gem 'devise_invitable'
+gem 'ice_cube'
 
 ######## /Application gems
 
