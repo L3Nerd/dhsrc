@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-LandesligaA:
+one:
   name: Landesliga A
   dsqv_name: ll-a
   license: Grundlizenz
 
-Oberliga:
+two:
   name: Oberliga
   dsqv_name: ol
   license: CLizenz

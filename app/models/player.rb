@@ -6,5 +6,5 @@ class Player < ActiveRecord::Base
   has_many :teams, through: :player_in_teams
   has_many :game_events, through: :player_in_games
 
-  validates :user, :license, :age_class
+  validates :user, :license, :age_class, presence: true
 end

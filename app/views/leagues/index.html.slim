@@ -1,0 +1,27 @@
+.page-header
+  = link_to new_league_path, class: 'btn btn-primary' do 
+    span.glyphicon.glyphicon-plus
+    |  New League
+  h1
+    | Listing leagues
+
+.table-responsive
+  table.table.table-striped.table-bordered.table-hover
+    thead
+      tr
+        th
+          | Liga
+        th
+        th
+        th
+    tbody
+      - @leagues.each do | league |
+        tr
+          td
+            = league.name
+          td
+            = link_to 'Show', league
+          td
+            = link_to 'Edit', edit_league_path(league) 
+          td
+            = link_to 'Destroy', league, method: :delete, data: { confirm: 'Are you sure?' } 

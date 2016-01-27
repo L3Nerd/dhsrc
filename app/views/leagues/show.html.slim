@@ -1,0 +1,14 @@
+.page-header
+  = link_to leagues_path, class: 'btn btn-default' do 
+    span.glyphicon.glyphicon-list-alt
+    |  Back 
+  = link_to edit_league_path(@league), class: 'btn btn-primary' do 
+    span.glyphicon.glyphicon-pencil
+    |  Edit 
+  h1
+    | Show league
+dl.dl-horizontal
+  dt
+    | Liga
+  dd
+    = @league.name
